@@ -133,7 +133,7 @@ network_interface {
 			sudo apt update -y
 			sudo apt install apache2 -y
 			sudo systemct1 start apache2
-			sudo bash -c 'echo Hi jyoti, how are you > /var/www/html/index.html'
+			sudo bash -c 'echo Hi people, how are you > /var/www/html/index.html'
 			EOF
 	tags = {
 		Name = "web-server"
